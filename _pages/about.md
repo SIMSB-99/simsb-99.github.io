@@ -13,11 +13,10 @@ profile:
   image: Ibrahim.jpg
   image_circular: false
   more_info: >
-    <p><strong>Research Affiliations</strong></p>
-    <p><a href="https://cs.vt.edu/" target="_blank" rel="noopener">Computer Science @ Virginia Tech</a></p>
-    <p><a href="https://bmdj-vt.github.io/" target="_blank" rel="noopener">PrivateEye Lab</a></p>
-    <p><a href="https://people.cs.vt.edu/boji/group.html" target="_blank" rel="noopener">SNAIL Lab</a></p>
-    <p><a href="https://hci.icat.vt.edu/" target="_blank" rel="noopener">Center for HCI (CHCI)</a></p>
+    <p><strong>Research Affiliations:</strong></p>
+    <p><a href="https://cs.vt.edu/" target="_blank" rel="noopener">CS@VT</a></p>
+    <p><a href="https://bmdj-vt.github.io/" target="_blank" rel="noopener">PrivateEye Lab</a> . <a href="https://people.cs.vt.edu/boji/group.html" target="_blank" rel="noopener">SNAIL Lab</a></p>
+    <p><a href="https://hci.icat.vt.edu/" target="_blank" rel="noopener">VT's Center for HCI (CHCI)</a></p>
 
 selected_papers: true
 social: true
@@ -33,9 +32,8 @@ latest_posts:
 
 I am currently pursuing a **Ph.D. in Computer Science at Virginia Tech**,
 where I am advised by
-[Dr. Brendan David-John](https://cs.vt.edu/people/faculty/brendan-david-john.html)
-and [Dr. Bo Ji](https://people.cs.vt.edu/boji/). I am affiliated with the
-**PrivateEye Lab**, the **Synergistic Networking and Augmented Intelligence
+[**Dr. Brendan David-John**](https://cs.vt.edu/people/faculty/brendan-david-john.html)
+and [**Dr. Bo Ji**](https://people.cs.vt.edu/boji/). I am affiliated with the **PrivateEye Lab**, the **Synergistic Networking and Augmented Intelligence
 Lab (SNAIL)**, and the **Center for Human-Computer Interaction (CHCI)** at
 Virginia Tech.
 
@@ -62,6 +60,5 @@ where I investigate user awareness and responses to attacks in immersive
 collaborative environments.
 
 More information about my work is available through my
-[publications]({{ '/publications/' | relative_url }}),
-[research projects]({{ '/projects/' | relative_url }}), and
-[resume]({{ '/cv/' | relative_url }}).
+[projects]({{ '/projects/' | relative_url }}) and
+[publications]({{ '/publications/' | relative_url }}).
