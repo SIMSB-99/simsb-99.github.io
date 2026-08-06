@@ -7,13 +7,12 @@ first_name: Syed Ibrahim Mustafa Shah
 middle_name: 
 last_name: Bukhari
 contact_note: >
-  Email is the best way to reach me.
+  Email is the best way to reach me!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Syed Ibrahim Mustafa Shah Bukhari, a Computer Science
   Ph.D. researcher at Virginia Tech who conducts human-computer interaction (HCI) research
   to investigate privacy in extended reality (XR).
 footer_text: >
-  Syed Ibrahim Mustafa Shah Bukhari.
   Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: > # add your own keywords or leave empty
   Syed Ibrahim Mustafa Shah Bukhari, Syed Ibrahim Bukhari, Ibrahim Bukhari, Ibrahim Mustafa, Syed Ibrahim Mustafa, 
@@ -30,7 +29,7 @@ icon: bee.png # the emoji used as the favicon (alternatively, provide image name
 apple_touch_icon: bee-180.png # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://simsb-99.github.io # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
