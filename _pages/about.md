@@ -2,6 +2,8 @@
 layout: about
 title: About
 permalink: /
+nav: true
+nav_order: 1
 
 subtitle: >
   Ph.D. Student in Computer Science at
