@@ -34,6 +34,7 @@ Remote collaborative mixed reality introduces attacks that exploit three-dimensi
 
 ## Citation
 
+{% raw %}
 ```bibtex
 @inproceedings{sajid2025juststop,
   title     = {{``Just stop doing everything for now!''}: Understanding Security Attacks in Remote Collaborative Mixed Reality},
@@ -44,5 +45,5 @@ Remote collaborative mixed reality introduces attacks that exploit three-dimensi
   doi       = {10.1109/VR59515.2025.00085}
 }
 ```
-
+{% endraw %}
 {% cite sajid2025juststop %}
