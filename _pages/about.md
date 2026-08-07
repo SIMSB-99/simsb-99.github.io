@@ -4,9 +4,9 @@ title: About
 permalink: /
 
 subtitle: >
-  Ph.D. Student in Computer Science at
+  Ph.D. Student in Computer Science department at
   <a href="https://cs.vt.edu/" target="_blank" rel="noopener">Virginia Tech</a>
-  · Blacksburg, Virginia, USA
+  (Blacksburg, Virginia, USA)
 
 profile:
   align: left
