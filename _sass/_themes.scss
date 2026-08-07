@@ -206,3 +206,57 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+
+/*******************************************************************************
+ * Personal site refinements
+ ******************************************************************************/
+
+/* Keep dark-mode machinery loaded, but hide the user-facing theme switch. */
+#light-toggle {
+  display: none !important;
+}
+
+/* Capitalize the homepage section headings without overriding the about layout. */
+.post h2 a[href$="/news/"],
+.post h2 a[href$="/publications/"] {
+  text-transform: capitalize;
+}
+
+/* Make bold text more distinct against the dark background. */
+html[data-theme="dark"] strong,
+html[data-theme="dark"] b {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+/* Project cards show a bounded abstract preview with a visual ellipsis. */
+.project-card-abstract {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+/* Artifact evaluation badges. */
+.artifact-badges {
+  margin: 0.45rem 0 0.9rem;
+}
+
+.artifact-badge {
+  display: inline-block;
+  margin: 0.15rem 0.35rem 0.15rem 0;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+a.artifact-badge:hover {
+  color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+  text-decoration: none;
+}

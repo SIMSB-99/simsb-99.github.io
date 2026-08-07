@@ -1,20 +1,31 @@
 ---
 layout: page
 title: EvaluatAR
-description: A cross-device record-and-replay framework for reproducible evaluation and rapid prototyping of bystander privacy-enhancing technologies in AR.
+abstract: >
+  Augmented-reality headsets continuously sense their surroundings, creating privacy risks for nearby
+  bystanders. EvaluatAR is a headset-agnostic framework that standardizes the sensor inputs, visual
+  stimuli, and logged outputs used to evaluate visual bystander privacy-enhancing technologies. Its record-
+  and-replay workflow lets researchers reproduce the same privacy-relevant conditions across devices and
+  trials, compare privacy–performance trade-offs, and revisit edge cases without repeatedly recreating live
+  human interactions. Three case studies demonstrate cross-device evaluation, support for both implicit and
+  explicit privacy mechanisms, and rapid debugging of failures under identical inputs.
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
-**Status:** Published in *Proceedings on Privacy Enhancing Technologies (PoPETs) 2026(4)*  
-**Devices:** Microsoft HoloLens 2, Magic Leap 2, Meta Quest 3  
-**Topics:** XR privacy, bystander privacy, reproducible evaluation, multimodal systems
+**Topics:** Privacy-enhancing technologies (PETs), bystander privacy, evaluation framework  
+
+<div class="artifact-badges">
+  <a class="artifact-badge" href="https://github.com/SIMSB-99/EvaluatAR/tree/8663580155115113e95e94e2e854855f02c7b4a2" target="_blank" rel="noopener">Artifact Available</a>
+  <a class="artifact-badge" href="https://github.com/SIMSB-99/EvaluatAR/tree/8663580155115113e95e94e2e854855f02c7b4a2" target="_blank" rel="noopener">Artifact Functional</a>
+</div>
 
 ## Abstract
 
-Augmented-reality headsets continuously sense their surroundings, creating privacy risks for nearby bystanders. EvaluatAR is a headset-agnostic framework that standardizes the sensor inputs, visual stimuli, and logged outputs used to evaluate visual bystander privacy-enhancing technologies. Its record-and-replay workflow lets researchers reproduce the same privacy-relevant conditions across devices and trials, compare privacy–performance trade-offs, and revisit edge cases without repeatedly recreating live human interactions. Three case studies demonstrate cross-device evaluation, support for both implicit and explicit privacy mechanisms, and rapid debugging of failures under identical inputs.
+{{ page.abstract }}
 
+<!--
 ## My contributions
 
 - Led the design and implementation of the cross-device evaluation framework.
@@ -23,15 +34,13 @@ Augmented-reality headsets continuously sense their surroundings, creating priva
 - Designed controlled experiments for cross-device trade-offs, candidate-load effects, intent-to-enforcement behavior, and overlapping/crossing-bystander edge cases.
 - Diagnosed identity-continuity failures and validated a Kalman-filter-based tracking modification under replayed conditions.
 - Led the paper development and recorded presentation.
+-->
 
 ## Resources
 
 - [Paper PDF]({{ '/assets/pdf/evaluatar-popets-2026.pdf' | relative_url }})
-- [Publisher / DOI](https://doi.org/10.56553/popets-2026-0153)
-- [arXiv](https://arxiv.org/abs/2605.29177)
-- [Recorded PETS 2026 presentation](https://youtu.be/pggUk6OAchM)
-
-> The codebase and additional evaluation artifacts were not found in a public repository during preparation of this page. Add them here when they become public.
+- [DOI](https://doi.org/10.56553/popets-2026-0153)
+- [Presentation](https://youtu.be/pggUk6OAchM)
 
 ## Citation
 
@@ -47,5 +56,3 @@ Augmented-reality headsets continuously sense their surroundings, creating priva
   doi     = {10.56553/popets-2026-0153}
 }
 ```
-
-{% cite bukhari2026evaluatar %}
