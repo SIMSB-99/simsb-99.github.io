@@ -27,3 +27,7 @@ related_publications: false
 - Packaged the perception pipeline into a full-stack web application for region-of-interest queries.
 - Worked under the supervision of Dr. Muhammad Fareed Zaffar and Dr. Murtaza Taj in the Technology for People Initiative Lab.
 -->
+
+## Resources
+
+- [Technical Report](https://www.theigc.org/sites/default/files/2022/03/Taj-and-Zaffar-Final-report-March-2022.pdf)
