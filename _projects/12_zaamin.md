@@ -7,6 +7,7 @@ abstract: >
   research and ideation through high-fidelity prototyping—and evaluated the design through usability
   testing with 15 participants.
 importance: 12
+site_visible: true
 category: human-centered-design
 related_publications: false
 ---

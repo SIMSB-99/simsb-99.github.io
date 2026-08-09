@@ -435,6 +435,7 @@ filtered_bibtex_keywords:
     website,
     artifact_available,
     artifact_functional,
+    site_visible,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

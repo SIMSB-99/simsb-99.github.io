@@ -6,6 +6,7 @@ abstract: >
   estimation aligned the feeds, and a YOLO-based human detector analyzed the stitched view to identify
   intrusions.
 importance: 11
+site_visible: true
 category: computer-vision
 related_publications: false
 ---

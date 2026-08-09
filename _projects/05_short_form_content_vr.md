@@ -9,6 +9,7 @@ abstract: >
   form interfaces may intensify engagement and reduce awareness of elapsed time. These results have
   implications for safer, more transparent, and more user-aware immersive media design.
 importance: 5
+site_visible: true
 category: research
 related_publications: false
 ---

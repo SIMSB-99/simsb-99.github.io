@@ -10,6 +10,7 @@ abstract: >
   found them informative and supported making such privacy-awareness mechanisms available, even when not
   enabled continuously by default.
 importance: 6
+site_visible: true
 category: research
 related_publications: false
 ---

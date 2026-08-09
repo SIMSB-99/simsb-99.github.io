@@ -1,8 +1,11 @@
 ---
 layout: post
-date: 2024-01-23 12:00:00-08:00
+date: 2024-01-23 12:00:00-0400
+display_date: "January 23, 2024"
 inline: true
 related_posts: false
+site_visible: true
+tags: [Conference, Demo, Presentation]
 ---
 
-Demonstrated **BystandAR** at the **Imaging for XR workshop at Electronic Imaging 2024** in San Francisco, California. [Workshop](https://www.imaging.org/IST/IST/Conferences/XR/XR2024/Imaging_for_XR2024.aspx).
+Attended **Imaging for XR 2024** at Electronic Imaging 2024 in the San Francisco Bay Area and demonstrated **BystandAR**.

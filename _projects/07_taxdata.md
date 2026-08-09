@@ -8,6 +8,7 @@ abstract: >
   classifier that achieved 92% accuracy. The resulting interface allowed officials to define regions of
   interest and inspect current model outputs, reducing reported survey time by 70%.
 importance: 7
+site_visible: true
 category: applied-research
 related_publications: false
 ---

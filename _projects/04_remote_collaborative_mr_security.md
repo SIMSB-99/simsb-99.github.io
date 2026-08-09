@@ -10,6 +10,7 @@ abstract: >
   security failures. The findings identify a gap in user awareness and motivate clearer system feedback,
   training, and mitigations for maintaining trust in remote immersive collaboration.
 importance: 4
+site_visible: true
 category: research
 related_publications: false
 ---

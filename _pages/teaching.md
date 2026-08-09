@@ -2,14 +2,28 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Summary of my teaching experience.
+description: Teaching experience at Virginia Tech and the Lahore University of Management Sciences.
 nav: true
 nav_order: 4
-# calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Virginia Tech
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**Graduate Teaching Assistant** · January 2025–Present
 
-{% include courses.liquid %}
+- **System and Software Security (CS 5590)** — Dr. Matthew Hicks
+- **Professionalism in Computing (CS 3604)** — Dr. Dan Dunlap
+- **Intro to Programming (CS 1604)** — Dr. Timothy Richards
+
+I have supervised undergraduate teaching assistants and held weekly office hours supporting students with course concepts and Python/C++ debugging.
+
+## Lahore University of Management Sciences (LUMS)
+
+**Undergraduate Teaching Assistant** · September 2020–August 2022
+
+- **Introduction to Programming (CS 200)** and **Artificial Intelligence (CS 331)** — Dr. Mian Muhammad Awais
+- **Software Engineering (CS 360)** — Dr. Suleman Shahid
+- **Computer Vision Fundamentals (CS 436)** — Dr. Murtaza Taj
+- **Computational Problem Solving (CS 100)** — Dr. Muhammad Fareed Zaffar
+
+I supported communication for 100+ students and supervised 25+ software engineering projects.

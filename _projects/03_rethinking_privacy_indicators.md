@@ -11,6 +11,7 @@ abstract: >
   participants found that visual-only indicators were often judged less useful in impairment scenarios,
   while adaptable multimodal indicators were preferred in privacy-sensitive contexts.
 importance: 3
+site_visible: true
 category: research
 related_publications: false
 ---

@@ -11,6 +11,7 @@ abstract: >
   The results expose a gap between plausible model outputs and human-grounded privacy reasoning, with
   implications for intelligent XR systems that must decide when sensing or recording is appropriate.
 importance: 2
+site_visible: true
 category: research
 related_publications: false
 ---

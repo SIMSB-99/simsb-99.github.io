@@ -10,6 +10,7 @@ abstract: >
   human interactions. Three case studies demonstrate cross-device evaluation, support for both implicit and
   explicit privacy mechanisms, and rapid debugging of failures under identical inputs.
 importance: 1
+site_visible: true
 category: research
 related_publications: false
 ---
@@ -17,8 +18,8 @@ related_publications: false
 **Topics:** Privacy-enhancing technologies (PETs), bystander privacy, evaluation framework  
 
 <div class="artifact-badges">
-  <a class="artifact-badge" href="https://github.com/SIMSB-99/EvaluatAR/tree/8663580155115113e95e94e2e854855f02c7b4a2" target="_blank" rel="noopener">Artifact Available</a>
-  <a class="artifact-badge" href="https://github.com/SIMSB-99/EvaluatAR/tree/8663580155115113e95e94e2e854855f02c7b4a2" target="_blank" rel="noopener">Artifact Functional</a>
+  <span class="artifact-badge">Artifact Available</span>
+  <span class="artifact-badge">Artifact Functional</span>
 </div>
 
 ## Abstract

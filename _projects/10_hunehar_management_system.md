@@ -6,6 +6,7 @@ abstract: >
   students. It streamlined course management and lesson delivery for approximately 15 staff members through
   a centralized web interface.
 importance: 10
+site_visible: true
 category: software
 related_publications: false
 ---
