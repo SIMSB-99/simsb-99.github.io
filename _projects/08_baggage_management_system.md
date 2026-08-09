@@ -6,7 +6,7 @@ abstract: >
   Ethereum to provide an immutable history of luggage movement. The backend integrated barcode scanning,
   blockchain writes, and a web interface, with location updates designed to appear in under one minute.
 importance: 8
-site_visible: true
+site_visible: false
 category: software
 related_publications: false
 ---

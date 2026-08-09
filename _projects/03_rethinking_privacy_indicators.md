@@ -10,7 +10,7 @@ abstract: >
   proximity-, gaze-, and activity-triggered cues. A scenario-based evaluation with seven additional
   participants found that visual-only indicators were often judged less useful in impairment scenarios,
   while adaptable multimodal indicators were preferred in privacy-sensitive contexts.
-importance: 3
+importance: 2
 site_visible: true
 category: research
 related_publications: false

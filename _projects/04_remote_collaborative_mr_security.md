@@ -9,7 +9,7 @@ abstract: >
   attacks that exploited MR-specific interaction mechanics than attacks resembling familiar desktop-
   security failures. The findings identify a gap in user awareness and motivate clearer system feedback,
   training, and mitigations for maintaining trust in remote immersive collaboration.
-importance: 4
+importance: 3
 site_visible: true
 category: research
 related_publications: false

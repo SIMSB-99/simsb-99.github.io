@@ -7,9 +7,9 @@ abstract: >
   images, including 3,000 manually labeled examples, and trained a constructed-versus-non-constructed
   classifier that achieved 92% accuracy. The resulting interface allowed officials to define regions of
   interest and inspect current model outputs, reducing reported survey time by 70%.
-importance: 7
+importance: 6
 site_visible: true
-category: applied-research
+category: research
 related_publications: false
 ---
 

@@ -10,8 +10,8 @@ abstract: >
   yet only 46.3% of taxonomy-guided predictions fully matched both the human privacy label and rationale.
   The results expose a gap between plausible model outputs and human-grounded privacy reasoning, with
   implications for intelligent XR systems that must decide when sensing or recording is appropriate.
-importance: 2
-site_visible: true
+importance: 
+site_visible: false
 category: research
 related_publications: false
 ---

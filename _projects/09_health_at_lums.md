@@ -6,7 +6,7 @@ abstract: >
   aimed to improve appointment scheduling and administrative workflows for a campus community of more than
   5,000 students.
 importance: 9
-site_visible: true
+site_visible: false
 category: software
 related_publications: false
 ---

@@ -32,15 +32,9 @@ and [Dr. Bo Ji](https://people.cs.vt.edu/boji/). I am affiliated with the
 [Synergistic Networking and Augmented Intelligence Lab (SNAIL)](https://people.cs.vt.edu/boji/group.html),
 and Virginia Tech's [Center for Human-Computer Interaction (CHCI)](https://hci.icat.vt.edu/).
 
-My current research lies at the intersection of **usable privacy and security, human-computer interaction,
-artificial intelligence, and extended reality**. I study how intelligent XR systems can understand
-privacy-sensitive social contexts, communicate their sensing behavior, and protect both device users and nearby bystanders.
+My current research lies at the intersection of **human-computer interaction (HCI)**, **usable security and privacy (S&P)**, **applied artificial intelligence (AI)**, and **extended reality (XR)**. My current work builds toward a broader research agenda on making **emerging technologies intelligent enough to adapt to human needs and values**, particularly around **privacy and security**, while remaining trustworthy, usable, and beneficial in practice. To this end, I study: (1) **standardized and reproducible XR privacy evaluation**, developing methods and tools that make privacy interventions easier to systematically evaluate, compare, and improve across devices; (3) **privacy indicator design**, creating and evaluating multimodal, context-aware interventions that make users and situationally impaired bystanders aware of sensitive data collection; and (4) **XR security**, investigating how people experience and respond to attacks in immersive collaborative environments. 
 
-My current work spans: (1) **human-grounded privacy reasoning**, where I evaluate whether vision-language models reason
-about privacy using whole-scene social context; (2) **reproducible XR evaluation**, where I develop tools for systematically
-evaluating and debugging multimodal XR systems across devices; (3) **bystander privacy**, where I design multimodal and
-context-aware privacy indicators; and (4) **XR security**, where I investigate user awareness and responses to attacks in
-immersive collaborative environments.
+**I approach research as a cross-domain problem solver**: identifying consequential human problems, developing technical or interaction-level interventions, rigorously evaluating them, and using those findings to improve human experience with technology.
 
 I also earned my **M.S. in Computer Science** from **Virginia Tech**. Before joining Virginia Tech, I completed my
 **B.S. in Computer Science** with a **minor in Psychology** at the **Lahore University of Management Sciences (LUMS)**.
@@ -48,7 +42,3 @@ At LUMS, I conducted undergraduate research in the
 [Technology for People Initiative Lab (TPI)](https://tpi.lums.edu.pk/) under the supervision of
 [Dr. Muhammad Fareed Zaffar](https://lums.edu.pk/lums_employee/422) and
 [Dr. Murtaza Taj](https://lums.edu.pk/lums_employee/2860).
-
-More information about my work is available through my
-[projects]({{ '/projects/' | relative_url }}) and
-[publications]({{ '/publications/' | relative_url }}).
