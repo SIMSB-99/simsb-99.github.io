@@ -261,7 +261,6 @@ exclude:
   - gems/
   - migrations/
   - vendor
-  - _pages/blog.md
   - _posts/
   - assets/jupyter/blog.ipynb
   - _pages/books.md

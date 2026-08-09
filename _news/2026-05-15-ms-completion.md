@@ -8,4 +8,4 @@ site_visible: true
 tags: [Education]
 ---
 
-Completed my **M.S. in Computer Science at Virginia Tech** with a **4.00 cumulative GPA**.
+Completed my **M.S. in Computer Science at Virginia Tech** with a **4.00 cumulative GPA**. [Verify electronic diploma](https://cediploma.es.cloud.vt.edu/cediplomaValidation?cedid=265P-9FM2-SPI3&Validate=Validate)
