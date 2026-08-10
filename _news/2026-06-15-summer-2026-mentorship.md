@@ -8,4 +8,4 @@ site_visible: true
 tags: [Mentorship]
 ---
 
-Mentoring **Kim Giordano** and **Amulya Chinnala** through Summer 2026. Kim and I are studying **privacy policy and transparent sensor-data usage in XR**, while Amulya and I are working on **AI alignment for privacy** through **PriVisE-Bench**.
+Mentoring **Kim Giordano** and **Amulya Chinnala** through Summer 2026. Kim and I are studying **privacy policies and transparent sensor-data usage in XR**, while Amulya and I are working on **AI alignment for privacy**.
