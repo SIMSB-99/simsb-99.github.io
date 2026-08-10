@@ -5,7 +5,7 @@ display_date: "November 17, 2025"
 inline: true
 related_posts: false
 site_visible: true
-tags: [Presentation, Publication]
+tags: [Presentation]
 ---
 
 Presented our paper **Rethinking Privacy Indicators in Extended Reality: Multimodal Design for Situationally Impaired Bystanders** at the **2025 Commonwealth Cyber Initiative Graduate Student Summit** at Virginia Tech.

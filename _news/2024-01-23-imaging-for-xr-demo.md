@@ -5,7 +5,7 @@ display_date: "January 23, 2024"
 inline: true
 related_posts: false
 site_visible: true
-tags: [Conference, Demo, Presentation]
+tags: [Demo, Conference]
 ---
 
 Attended **Imaging for XR 2024** at Electronic Imaging 2024 in the San Francisco Bay Area and demonstrated **BystandAR**.

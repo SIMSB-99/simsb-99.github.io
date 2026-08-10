@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am currently pursuing a **Ph.D. in Computer Science** at [Virginia Tech](https://cs.vt.edu/), where I am advised by
+I am currently pursuing a **Ph.D. in Computer Science** at **Virginia Tech**, where I am advised by
 [Dr. Brendan David-John](https://cs.vt.edu/people/faculty/brendan-david-john.html)
 and [Dr. Bo Ji](https://people.cs.vt.edu/boji/). I am affiliated with the
 [PrivateEye Lab](https://bmdj-vt.github.io/), the

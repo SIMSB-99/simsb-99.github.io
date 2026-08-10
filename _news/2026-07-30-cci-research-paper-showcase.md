@@ -5,7 +5,7 @@ display_date: "July 2026"
 inline: true
 related_posts: false
 site_visible: true
-tags: [Publication, Award]
+tags: [Media]
 ---
 
 **EvaluatAR: A Cross-Device Evaluation Framework for Rapid Prototyping of Bystander PETs in AR** was selected for the **Commonwealth Cyber Initiative Research Paper Showcase 2026**.

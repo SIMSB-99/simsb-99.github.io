@@ -5,7 +5,7 @@ display_date: "April 26–27, 2024"
 inline: true
 related_posts: false
 site_visible: true
-tags: [Demo, Presentation]
+tags: [Demo]
 ---
 
 Demonstrated **BystandAR** during Virginia Tech's **2024 Ut Prosim Society Weekend** in Blacksburg, Virginia.

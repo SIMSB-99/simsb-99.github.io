@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-02-27 12:00:00-0400
-display_date: "February 27, 2026"
+date: 2025-02-27 12:00:00-0400
+display_date: "February 27, 2025"
 inline: true
 related_posts: false
 site_visible: true
