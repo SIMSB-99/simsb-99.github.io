@@ -98,7 +98,7 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                <li class="nav-item {% if p.nav_emphasis %}nav-emphasis{% endif %} {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.nav_url -%}
                     {%- assign url = p.nav_url -%}
                   {%- elsif p.permalink contains '://' -%}
@@ -113,6 +113,7 @@
                     class="nav-link"
                     href="{% if url contains '://' %}{{ url }}{% else %}{{ url | relative_url }}{% endif %}"
                     {% if p.nav_new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}
+                    {% if p.nav_emphasis %}style="border: 1px solid var(--global-theme-color); border-radius: 0.45rem; padding: 0.25rem 0.58rem; margin-left: 0.18rem; color: var(--global-theme-color); font-weight: 700;"{% endif %}
                   >
                     {{- p.title }}
                     {% if page.url contains p.url %}

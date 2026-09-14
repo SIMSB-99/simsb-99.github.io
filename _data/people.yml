@@ -1,0 +1,90 @@
+sections:
+  - id: mentees
+    title: Mentees
+    description: >-
+      Students I currently mentor on research projects spanning privacy, AI, and extended reality.
+    people:
+      - name: Kim Giordano
+        relationship: Undergraduate Research Mentee
+        affiliation: Virginia Tech
+        period: June 2026–Present
+        description: >-
+          I mentor Kim on research examining privacy policies and transparent sensor-data usage in extended reality, with a focus on making sensing practices more understandable to people affected by XR systems.
+        site_visible: true
+
+      - name: Amulya Chinnala
+        relationship: Undergraduate Research Mentee
+        affiliation: Virginia Tech
+        period: June 2026–Present
+        description: >-
+          I mentor Amulya on research at the intersection of AI alignment and privacy, studying how intelligent systems can better reflect human privacy expectations.
+        site_visible: true
+
+  - id: advisors
+    title: Advisors & Research Mentors
+    description: >-
+      Current and former research advisors who have shaped my academic and research development.
+    people:
+      - name: Brendan David-John
+        relationship: Ph.D. Advisor
+        affiliation: Virginia Tech
+        period: August 2023–Present
+        website: https://cs.vt.edu/people/faculty/brendan-david-john.html
+        description: >-
+          Advises my Ph.D. research in the PrivateEye Lab, with work spanning usable privacy and security, human-computer interaction, and extended reality.
+        site_visible: true
+
+      - name: Bo Ji
+        relationship: Ph.D. Advisor
+        affiliation: Virginia Tech
+        period: August 2023–Present
+        website: https://people.cs.vt.edu/boji/
+        description: >-
+          Advises my Ph.D. research through the Synergistic Networking and Augmented Intelligence Lab (SNAIL), connecting intelligent systems, networking, and extended reality research.
+        site_visible: true
+
+      - name: Muhammad Fareed Zaffar
+        relationship: Undergraduate Research Advisor
+        affiliation: Lahore University of Management Sciences (LUMS)
+        period: January 2022–May 2023
+        website: https://lums.edu.pk/lums_employee/422
+        description: >-
+          Supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
+        site_visible: true
+
+      - name: Murtaza Taj
+        relationship: Undergraduate Research Advisor
+        affiliation: Lahore University of Management Sciences (LUMS)
+        period: January 2022–May 2023
+        website: https://lums.edu.pk/lums_employee/2860
+        description: >-
+          Supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
+        site_visible: true
+
+  - id: industry
+    title: Industry Mentors & Managers
+    description: >-
+      People who have mentored or managed me in professional roles.
+    people: []
+
+  - id: collaborators
+    title: Collaborators
+    description: >-
+      Research and professional collaborators with whom I have worked closely.
+    people: []
+
+# Add future sections using the same structure, for example:
+#
+#  - id: industry
+#    title: Industry Mentors & Managers
+#    description: People I have worked with in professional roles.
+#    people:
+#      - name: Example Name
+#        relationship: Engineering Manager
+#        affiliation: Example Company
+#        period: 2026–Present
+#        website: https://example.com
+#        linkedin: https://linkedin.com/in/example
+#        description: >-
+#          Short description of your work together.
+#        site_visible: true

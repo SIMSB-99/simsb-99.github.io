@@ -1,0 +1,75 @@
+<div class="people-page">
+  {% for section in site.data.people.sections %}
+    {% assign visible_people = section.people | where_exp: "person", "person.site_visible != false" %}
+    {% if visible_people.size > 0 %}
+      <section class="people-section" aria-labelledby="people-{{ section.id }}">
+        <h2 id="people-{{ section.id }}">{{ section.title }}</h2>
+        {% if section.description %}
+          <p class="people-section-description">{{ section.description }}</p>
+        {% endif %}
+
+        <div class="people-grid">
+          {% for person in visible_people %}
+            <article class="person-card">
+              <div class="person-card-header">
+                {% if person.image %}
+                  <img
+                    class="person-photo"
+                    src="{{ person.image | prepend: '/assets/img/people/' | relative_url }}"
+                    alt="{{ person.name }}"
+                    loading="lazy"
+                  >
+                {% else %}
+                  {% assign name_parts = person.name | split: ' ' %}
+                  {% assign first_name = name_parts | first %}
+                  {% assign last_name = name_parts | last %}
+                  <div class="person-avatar" aria-hidden="true">
+                    {{ first_name | slice: 0 }}{{ last_name | slice: 0 }}
+                  </div>
+                {% endif %}
+
+                <div class="person-heading">
+                  <h3 class="person-name">
+                    {% if person.website %}
+                      <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>
+                    {% else %}
+                      {{ person.name }}
+                    {% endif %}
+                  </h3>
+
+                  <div class="person-relationship">{{ person.relationship }}</div>
+
+                  {% if person.affiliation %}
+                    <div class="person-affiliation">{{ person.affiliation }}</div>
+                  {% endif %}
+
+                  {% if person.period %}
+                    <div class="person-period">{{ person.period }}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              {% if person.description %}
+                <div class="person-description">{{ person.description | markdownify }}</div>
+              {% endif %}
+
+              {% if person.website or person.scholar or person.linkedin %}
+                <div class="person-links">
+                  {% if person.website %}
+                    <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">Website</a>
+                  {% endif %}
+                  {% if person.scholar %}
+                    <a href="{{ person.scholar }}" target="_blank" rel="noopener noreferrer">Scholar</a>
+                  {% endif %}
+                  {% if person.linkedin %}
+                    <a href="{{ person.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /cv/
-title: Resume
+title: CV
 nav: true
-nav_order: 6
+nav_order: 8
 nav_url: /assets/pdf/master_resume.pdf
 nav_new_tab: true
-# description: Resume of Syed Ibrahim Mustafa Shah Bukhari.
+nav_emphasis: true
+# description: Curriculum vitae of Syed Ibrahim Mustafa Shah Bukhari.
 ---
 
-[Click to view my resume as PDF]({{ '/assets/pdf/master_resume.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+[Click to view my CV as PDF]({{ '/assets/pdf/master_resume.pdf' | relative_url }}){:target="_blank" rel="noopener"}
