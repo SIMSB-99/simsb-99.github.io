@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-description: People I have worked with, learned from, advised, and mentored.
+# description: People I have worked with, learned from, advised, and mentored.
 nav: true
 nav_order: 5
 ---

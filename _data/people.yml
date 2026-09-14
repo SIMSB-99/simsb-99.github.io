@@ -1,29 +1,29 @@
 sections:
   - id: mentees
     title: Mentees
-    description: >-
-      Students I currently mentor on research projects spanning privacy, AI, and extended reality.
+    # description: >-
+    #   Students I currently mentor on research projects spanning privacy, AI, and extended reality.
     people:
-      - name: Kim Giordano
-        relationship: Undergraduate Research Mentee
-        affiliation: Virginia Tech
-        period: June 2026–Present
-        description: >-
-          I mentor Kim on research examining privacy policies and transparent sensor-data usage in extended reality, with a focus on making sensing practices more understandable to people affected by XR systems.
-        site_visible: true
-
       - name: Amulya Chinnala
         relationship: Undergraduate Research Mentee
         affiliation: Virginia Tech
-        period: June 2026–Present
+        period: June 2026–August 2026
         description: >-
-          I mentor Amulya on research at the intersection of AI alignment and privacy, studying how intelligent systems can better reflect human privacy expectations.
+          I mentored Amulya on research at the intersection of AI alignment and privacy, studying how intelligent systems can better reflect human privacy expectations.
+        site_visible: true
+
+      - name: Kim Giordano
+        relationship: Undergraduate Research Mentee
+        affiliation: Virginia Tech
+        period: June 2026–August 2026
+        description: >-
+          I mentored Kim on research examining privacy policies and transparent sensor-data usage in extended reality, with a focus on making sensing practices more understandable to people affected by XR systems.
         site_visible: true
 
   - id: advisors
-    title: Advisors & Research Mentors
-    description: >-
-      Current and former research advisors who have shaped my academic and research development.
+    title: Research Mentors
+    # description: >-
+    #   Current and former research advisors who have shaped my academic and research development.
     people:
       - name: Brendan David-John
         relationship: Ph.D. Advisor
@@ -40,7 +40,7 @@ sections:
         period: August 2023–Present
         website: https://people.cs.vt.edu/boji/
         description: >-
-          Advises my Ph.D. research through the Synergistic Networking and Augmented Intelligence Lab (SNAIL), connecting intelligent systems, networking, and extended reality research.
+          Advises my Ph.D. research through the Synergistic Networking and Augmented Intelligence Lab (SNAIL), connecting intelligent systems, applied AI, and extended reality research.
         site_visible: true
 
       - name: Muhammad Fareed Zaffar
@@ -49,7 +49,7 @@ sections:
         period: January 2022–May 2023
         website: https://lums.edu.pk/lums_employee/422
         description: >-
-          Supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
+          Co-supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
         site_visible: true
 
       - name: Murtaza Taj
@@ -58,20 +58,49 @@ sections:
         period: January 2022–May 2023
         website: https://lums.edu.pk/lums_employee/2860
         description: >-
-          Supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
+          Co-supervised my undergraduate research through the Technology for People Initiative Lab (TPI) at LUMS.
         site_visible: true
 
   - id: industry
-    title: Industry Mentors & Managers
-    description: >-
-      People who have mentored or managed me in professional roles.
+    title: Industry Mentors
+    # description: >-
+    #   People who have mentored or managed me in professional roles.
     people: []
 
   - id: collaborators
     title: Collaborators
     description: >-
       Research and professional collaborators with whom I have worked closely.
-    people: []
+    people:
+        - name: "Maha Sajid"
+          # relationship: "Research Collaborator"
+          affiliation: "Virginia Tech"
+          image:
+          website: "https://mahasajid.github.io"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
+
+        - name: "Matthew Corbett"
+          # relationship: "Research Collaborator"
+          affiliation: "Army Cyber Institute at West Point"
+          image:
+          website: "https://matthew-corbett.com/"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
+
+        - name: "G. Nikki Ramirez"
+          # relationship: "Research Collaborator"
+          affiliation: "Virginia Tech"
+          image:
+          website: "https://bmdj-vt.github.io/people"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
 
 # Add future sections using the same structure, for example:
 #
