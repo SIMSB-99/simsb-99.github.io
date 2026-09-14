@@ -20,8 +20,43 @@ sections:
           I mentored Kim on research examining privacy policies and transparent sensor-data usage in extended reality, with a focus on making sensing practices more understandable to people affected by XR systems.
         site_visible: true
 
+  - id: collaborators
+    title: Collaborators
+    # description: >-
+    #   Research and professional collaborators with whom I have worked closely.
+    people:
+        - name: "Maha Sajid"
+          # relationship: "Research Collaborator"
+          affiliation: "Virginia Tech"
+          image:
+          website: "https://mahasajid.github.io"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
+
+        - name: "Matthew Corbett"
+          # relationship: "Research Collaborator"
+          affiliation: "Army Cyber Institute at West Point"
+          image:
+          website: "https://matthew-corbett.com/"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
+
+        - name: "G. Nikki Ramirez"
+          # relationship: "Research Collaborator"
+          affiliation: "Virginia Tech"
+          image:
+          website: "https://bmdj-vt.github.io/people"
+          scholar:
+          linkedin:
+          description:
+          site_visible: true
+          
   - id: advisors
-    title: Research Mentors
+    title: Mentors
     # description: >-
     #   Current and former research advisors who have shaped my academic and research development.
     people:
@@ -66,41 +101,6 @@ sections:
     # description: >-
     #   People who have mentored or managed me in professional roles.
     people: []
-
-  - id: collaborators
-    title: Collaborators
-    description: >-
-      Research and professional collaborators with whom I have worked closely.
-    people:
-        - name: "Maha Sajid"
-          # relationship: "Research Collaborator"
-          affiliation: "Virginia Tech"
-          image:
-          website: "https://mahasajid.github.io"
-          scholar:
-          linkedin:
-          description:
-          site_visible: true
-
-        - name: "Matthew Corbett"
-          # relationship: "Research Collaborator"
-          affiliation: "Army Cyber Institute at West Point"
-          image:
-          website: "https://matthew-corbett.com/"
-          scholar:
-          linkedin:
-          description:
-          site_visible: true
-
-        - name: "G. Nikki Ramirez"
-          # relationship: "Research Collaborator"
-          affiliation: "Virginia Tech"
-          image:
-          website: "https://bmdj-vt.github.io/people"
-          scholar:
-          linkedin:
-          description:
-          site_visible: true
 
 # Add future sections using the same structure, for example:
 #
