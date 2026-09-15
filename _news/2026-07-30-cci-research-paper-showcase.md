@@ -8,4 +8,4 @@ site_visible: true
 tags: [Media]
 ---
 
-**EvaluatAR: A Cross-Device Evaluation Framework for Rapid Prototyping of Bystander PETs in AR** was selected for the **Commonwealth Cyber Initiative Research Paper Showcase 2026**.
+**Rethinking Privacy Indicators in Extended Reality: Multimodal Design for Situationally Impaired Bystanders** was selected for the **Commonwealth Cyber Initiative Research Paper Showcase 2026**. [Read the feature](https://www.linkedin.com/posts/commonwealth-cyber-initiative_ccirps2026rethinkingprivacyindicatorsextendedreality-activity-7505294399313035265-uX0c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB5zc4MBK0hG26odoH5jsbdTLR2LoUQQqNE).
