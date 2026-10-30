@@ -36,6 +36,7 @@ related_publications: false
 - [Paper PDF]({{ '/assets/pdf/rethinking-privacy-indicators-ismar-2025.pdf' | relative_url }})
 - [DOI](https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00059)
 - [Supplementary Material](https://zenodo.org/records/18612884)
+- [Artifacts](https://zenodo.org/records/18612884)
 
 ## Citation
 

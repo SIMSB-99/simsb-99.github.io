@@ -34,6 +34,7 @@ related_publications: false
 - [Paper PDF]({{ '/assets/pdf/visceral-interfaces-ismar-2024.pdf' | relative_url }})
 - [DOI](https://doi.org/10.1109/ISMAR62088.2024.00054)
 - [Supplementary Material]({{ '/assets/pdf/visceral-interfaces-ismar-2024-supplementary.pdf' | relative_url }})
+- [Artifacts](https://version.cs.vt.edu/privateeye/visceral-notices)
 
 ## Citation
 

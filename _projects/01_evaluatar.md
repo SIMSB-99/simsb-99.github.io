@@ -42,6 +42,7 @@ related_publications: false
 - [Paper PDF]({{ '/assets/pdf/evaluatar-popets-2026.pdf' | relative_url }})
 - [DOI](https://doi.org/10.56553/popets-2026-0153)
 - [Presentation](https://youtu.be/pggUk6OAchM)
+- [Artifacts](https://github.com/SIMSB-99/EvaluatAR/tree/8663580155115113e95e94e2e854855f02c7b4a2)
 
 ## Citation
 

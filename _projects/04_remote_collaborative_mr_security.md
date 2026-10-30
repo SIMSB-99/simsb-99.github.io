@@ -34,6 +34,8 @@ related_publications: false
 
 - [Paper PDF]({{ '/assets/pdf/remote-collaborative-mr-security-ieee-vr-2025.pdf' | relative_url }})
 - [DOI](https://doi.org/10.1109/VR59515.2025.00085)
+- [Presentation](https://www.youtube.com/watch?v=tfEGtoCRmb4)
+- [Artifacts](https://github.com/mahasajid/MRattack)
 
 ## Citation
 

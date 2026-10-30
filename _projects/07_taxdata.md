@@ -31,3 +31,4 @@ related_publications: false
 ## Resources
 
 - [Technical Report](https://www.theigc.org/sites/default/files/2022/03/Taj-and-Zaffar-Final-report-March-2022.pdf)
+- [Artifacts](https://github.com/MrWains/TaxData)
