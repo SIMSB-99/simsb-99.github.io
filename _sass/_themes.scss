@@ -387,6 +387,18 @@ b {
 }
 
 /* Public-facing news dates and category tags. */
+.news .homepage-news-scroll {
+  max-height: 60vw;
+}
+
+/* Let touch-sized layouts scroll the page instead of a nested news panel. */
+@media (max-width: 1023.98px) {
+  .news .homepage-news-scroll {
+    max-height: none;
+    overflow: visible;
+  }
+}
+
 .news .news-date {
   width: 24%;
   min-width: 9.5rem;

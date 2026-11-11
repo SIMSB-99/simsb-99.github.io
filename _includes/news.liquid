@@ -23,10 +23,7 @@
       </div>
     {% endif %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
+      class="table-responsive{% if include.limit and page.announcements.scrollable and news_size > 3 %} homepage-news-scroll{% endif %}"
     >
       <table class="table table-sm table-borderless" {% if include.filters %}id="news-list"{% endif %}>
         {% assign news = visible_news | reverse %}
