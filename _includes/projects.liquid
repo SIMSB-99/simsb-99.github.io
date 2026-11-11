@@ -1,24 +1,18 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+    <div class="card h-100 hoverable project-card">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "(min-width: 768px) 300px, (min-width: 576px) 45vw, 90vw"
-          alt=project.title
-          class="card-img-top project-thumbnail"
-        %}
+        <a class="project-image-slot" href="{{ project.img | relative_url }}" aria-label="Open full-size image for {{ project.title | escape }}">
+          <img src="{{ project.img | relative_url }}" class="project-thumbnail" alt="{{ project.title | escape }}" loading="lazy" decoding="async">
+        </a>
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h2 class="card-title"><a class="project-page-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">{{ project.title }}</a></h2>
         {% if project.abstract %}
           <p class="card-text project-card-abstract"><strong>Abstract:</strong> {{ project.abstract }}</p>
         {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
-            <div class="github-icon">
+            <div class="github-icon project-resource-link">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
@@ -33,5 +27,4 @@
         </div>
       </div>
     </div>
-  </a>
 </div>

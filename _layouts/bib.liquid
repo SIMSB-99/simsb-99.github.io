@@ -26,6 +26,7 @@
         {% endif %}
       {% endif %}
       {% if entry.preview %}
+        <div class="publication-image-slot">
         {%- comment -%}
           A preview may be a video file rather than an image. Rendering one through the
           image path below produces a broken <img>, so hand it to video.liquid instead.
@@ -57,6 +58,7 @@
             alt=entry.title
           %}
         {% endif %}
+        </div>
       {% endif %}
     </div>
   {% endif %}

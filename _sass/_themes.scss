@@ -242,8 +242,22 @@ b {
 }
 
 /* Keep complete paper figures readable without making cards image-heavy. */
-.publications .publication-media figure {
-  margin: 0.45rem 0 0;
+.publications .publication-image-slot {
+  height: 135px;
+  margin-top: 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publications .publication-image-slot figure,
+.publications .publication-image-slot picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .publications .publication-media {
@@ -253,24 +267,64 @@ b {
 .publications .paper-thumbnail {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 150px;
+  height: 100%;
+  max-height: 135px;
   object-fit: contain;
   background: #fff;
   border-radius: 4px;
 }
 
-.projects .card > figure {
-  margin: 0;
+.projects .project-card {
+  position: relative;
+}
+
+.projects .project-image-slot {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.projects .project-page-link {
+  color: inherit;
+}
+
+.projects .project-card .card-body,
+.projects .project-card .card-title,
+.projects .project-page-link {
+  position: static;
+}
+
+.projects .project-page-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.projects .project-resource-link {
+  position: relative;
+  z-index: 2;
+}
+
+.projects .project-image-slot:focus-visible,
+.projects .project-page-link:focus-visible::after {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
 }
 
 .projects .project-thumbnail {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 165px;
+  height: 100%;
+  max-height: 100%;
   object-fit: contain;
-  padding: 0.6rem 0.6rem 0;
   background: #fff;
 }
 
