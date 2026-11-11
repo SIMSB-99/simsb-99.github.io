@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Visceral Interfaces for Eye-Tracking Privacy Awareness in VR
+img: assets/img/publication_preview/visceral.webp
 abstract: >
   Eye tracking supports interaction, rendering optimization, and adaptive experiences in VR, but gaze data
   can also reveal identity, behavior, and sensitive personal attributes. This project designed three

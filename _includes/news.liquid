@@ -2,13 +2,34 @@
   {% if site.news != blank %}
     {% assign visible_news = site.news | where_exp: "item", "item.site_visible != false" %}
     {% assign news_size = visible_news | size %}
+    {% assign available_categories = '' | split: ',' %}
+    {% for item in visible_news %}
+      {% if item.tags %}
+        {% assign available_categories = available_categories | concat: item.tags | uniq %}
+      {% endif %}
+    {% endfor %}
+    {% assign ordered_categories = site.data.news_categories | concat: available_categories | uniq %}
+    {% if include.filters %}
+      <div class="news-filter-controls" hidden>
+        <p id="news-filter-label">Filter news by category:</p>
+        <div class="news-filters" role="group" aria-labelledby="news-filter-label">
+          <button type="button" class="news-tag news-filter" data-news-filter="all" aria-pressed="true" aria-controls="news-list">All</button>
+          {% for category in ordered_categories %}
+            {% if available_categories contains category %}
+              <button type="button" class="news-tag news-filter news-tag--{{ category | slugify }}" data-news-filter="{{ category | escape }}" aria-pressed="false" aria-controls="news-list">{{ category }}</button>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p class="news-filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </div>
+    {% endif %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
         style="max-height: 60vw"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm table-borderless" {% if include.filters %}id="news-list"{% endif %}>
         {% assign news = visible_news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
@@ -16,7 +37,7 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
+          <tr {% if include.filters %}data-news-tags="{{ item.tags | jsonify | escape }}"{% endif %}>
             <th scope="row" class="news-date">
               {% if item.display_date %}
                 {{ item.display_date }}
@@ -32,8 +53,10 @@
               {% endif %}
               {% if item.tags %}
                 <div class="news-tags" aria-label="News categories">
-                  {% for tag in item.tags %}
+                  {% for tag in ordered_categories %}
+                    {% if item.tags contains tag %}
                     <span class="news-tag news-tag--{{ tag | slugify }}">{{ tag }}</span>
+                    {% endif %}
                   {% endfor %}
                 </div>
               {% endif %}

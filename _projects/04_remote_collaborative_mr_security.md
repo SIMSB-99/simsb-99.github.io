@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Security Attacks in Remote Collaborative Mixed Reality
+img: assets/img/publication_preview/security.webp
 abstract: >
   Remote collaborative mixed reality introduces attacks that exploit three-dimensional interaction and
   invisible virtual geometry. This project implemented latency, click-redirection, object-occlusion, and

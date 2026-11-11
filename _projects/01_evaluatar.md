@@ -1,6 +1,7 @@
 ---
 layout: page
 title: EvaluatAR
+img: assets/img/publication_preview/evaluatar.webp
 abstract: >
   Augmented-reality headsets continuously sense their surroundings, creating privacy risks for nearby
   bystanders. EvaluatAR is a headset-agnostic framework that standardizes the sensor inputs, visual

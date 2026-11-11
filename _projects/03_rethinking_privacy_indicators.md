@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Rethinking Privacy Indicators in Extended Reality
+img: assets/img/publication_preview/rethinking.webp
 abstract: >
   Conventional XR privacy indicators, such as small recording LEDs, assume that nearby bystanders are
   attentive and able to notice visual cues. This project introduces the concept of situationally impaired
