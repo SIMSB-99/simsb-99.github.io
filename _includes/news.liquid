@@ -11,7 +11,7 @@
     {% assign ordered_categories = site.data.news_categories | concat: available_categories | uniq %}
     {% if include.filters %}
       <div class="news-filter-controls" hidden>
-        <p id="news-filter-label">Filter news by category:</p>
+        <p id="news-filter-label">Filter news by category</p>
         <div class="news-filters" role="group" aria-labelledby="news-filter-label">
           <button type="button" class="news-tag news-filter" data-news-filter="all" aria-pressed="true" aria-controls="news-list">All</button>
           {% for category in ordered_categories %}
@@ -20,7 +20,6 @@
             {% endif %}
           {% endfor %}
         </div>
-        <p class="news-filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
       </div>
     {% endif %}
     <div

@@ -8,20 +8,14 @@ document.querySelectorAll('.news').forEach((section) => {
     row,
     tags: JSON.parse(row.dataset.newsTags || '[]') || [],
   }));
-  const status = controls.querySelector('.news-filter-status');
 
   const selectCategory = (category) => {
-    let visibleCount = 0;
     entries.forEach(({ row, tags }) => {
       row.hidden = category !== 'all' && !tags.includes(category);
-      if (!row.hidden) visibleCount += 1;
     });
     buttons.forEach((button) => {
       button.setAttribute('aria-pressed', String(button.dataset.newsFilter === category));
     });
-    status.textContent = category === 'all'
-      ? `Showing all ${visibleCount} announcements.`
-      : `Showing ${visibleCount} of ${entries.length} announcements in ${category}.`;
   };
 
   buttons.forEach((button) => {
