@@ -55,3 +55,5 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+<script src="{{ '/assets/js/project-image-zoom.js' | relative_url }}" defer></script>

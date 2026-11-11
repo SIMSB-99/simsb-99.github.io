@@ -1,9 +1,9 @@
 <div class="col">
     <div class="card h-100 hoverable project-card">
       {% if project.img %}
-        <a class="project-image-slot" href="{{ project.img | relative_url }}" aria-label="Open full-size image for {{ project.title | escape }}">
-          <img src="{{ project.img | relative_url }}" class="project-thumbnail" alt="{{ project.title | escape }}" loading="lazy" decoding="async">
-        </a>
+        <button type="button" class="project-image-slot" aria-label="Zoom image for {{ project.title | escape }}">
+          <img src="{{ project.img | relative_url }}" class="project-thumbnail" alt="{{ project.title | escape }}" data-zoomable loading="lazy" decoding="async">
+        </button>
       {% endif %}
       <div class="card-body">
         <h2 class="card-title"><a class="project-page-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">{{ project.title }}</a></h2>

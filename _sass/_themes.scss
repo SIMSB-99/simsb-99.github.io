@@ -285,6 +285,11 @@ b {
   align-items: center;
   justify-content: center;
   height: 180px;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  appearance: none;
+  cursor: zoom-in;
   flex-shrink: 0;
   box-sizing: border-box;
   padding: 0.75rem;
