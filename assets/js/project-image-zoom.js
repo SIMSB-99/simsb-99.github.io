@@ -1,0 +1,1 @@
+document.querySelectorAll(".project-image-slot").forEach(e=>{e.addEventListener("click",t=>{const c=e.querySelector("[data-zoomable]");c&&t.target!==c&&c.click()})});
