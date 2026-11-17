@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Visceral Interfaces for Eye-Tracking Privacy Awareness in VR
+# Metadata only; update with project scope/status changes. See SEO.md.
+seo_title: "Eye-Tracking Privacy Awareness in VR | Syed Ibrahim Mustafa Shah Bukhari"
+seo_description: "Research evaluating visceral interfaces that help people understand eye-tracking data collection and its privacy implications in virtual reality."
 img: assets/img/publication_preview/visceral.webp
 abstract: >
   Eye tracking supports interaction, rendering optimization, and adaptive experiences in VR, but gaze data

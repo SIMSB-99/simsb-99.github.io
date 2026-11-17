@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Security Attacks in Remote Collaborative Mixed Reality
+# Metadata only; update with project scope/status changes. See SEO.md.
+seo_title: "Security Attacks in Collaborative Mixed Reality | Syed Ibrahim Mustafa Shah Bukhari"
+seo_description: "A user study investigating how people recognize and respond to click-redirection, object-occlusion, and spatial-occlusion attacks in collaborative mixed reality."
 img: assets/img/publication_preview/security.webp
 abstract: >
   Remote collaborative mixed reality introduces attacks that exploit three-dimensional interaction and

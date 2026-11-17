@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Rethinking Privacy Indicators in Extended Reality
+# Metadata only; update with project scope/status changes. See SEO.md.
+seo_title: "Accessible Multimodal XR Privacy Indicators for Situationally Impaired Bystanders | Syed Ibrahim Mustafa Shah Bukhari"
+seo_description: "Participatory research exploring multimodal XR privacy indicators that help distracted and situationally impaired bystanders recognize sensitive data collection."
 img: assets/img/publication_preview/rethinking.webp
 abstract: >
   Conventional XR privacy indicators, such as small recording LEDs, assume that nearby bystanders are

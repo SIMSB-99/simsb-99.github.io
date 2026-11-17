@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Projects
+# Metadata only; keep representative of visible projects. See SEO.md.
+seo_title: "Research Projects | Syed Ibrahim Mustafa Shah Bukhari"
+seo_description: "Explore research projects by Syed Ibrahim Mustafa Shah Bukhari spanning human-computer interaction, privacy and security, and extended reality."
 permalink: /projects/
 description: Research projects that I have lead and/or contributed to.
 nav: true

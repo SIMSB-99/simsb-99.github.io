@@ -1,0 +1,35 @@
+{% assign profile_url = '/' | absolute_url %}
+{% assign person_id = profile_url | append: '#person' %}
+{% assign profile_image = page.profile.image | prepend: '/assets/img/' | absolute_url %}
+{% capture scholar_url %}https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}{% endcapture %}
+{% capture orcid_url %}https://orcid.org/{{ site.data.socials.orcid_id }}{% endcapture %}
+{% capture linkedin_url %}https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}{% endcapture %}
+{% capture github_url %}https://github.com/{{ site.data.socials.github_username }}{% endcapture %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": {{ profile_url | append: '#profile' | jsonify }},
+  "url": {{ profile_url | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ person_id | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "alternateName": {{ site.data.seo_identity.alternate_names | jsonify }},
+    "jobTitle": {{ site.data.seo_identity.job_title | jsonify }},
+    "affiliation": {
+      "@type": "Organization",
+      "name": {{ site.data.seo_identity.affiliation | jsonify }}
+    },
+    "description": {{ page.seo_description | strip | jsonify }},
+    "url": {{ profile_url | jsonify }},
+    "image": {{ profile_image | jsonify }},
+    "sameAs": [
+      {{ orcid_url | strip | jsonify }},
+      {{ scholar_url | strip | jsonify }},
+      {{ linkedin_url | strip | jsonify }},
+      {{ github_url | strip | jsonify }}
+    ]
+  }
+}
+</script>

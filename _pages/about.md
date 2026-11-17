@@ -2,6 +2,10 @@
 layout: about
 title: About
 permalink: /
+# Metadata only; keep aligned with the biography and research focus. See SEO.md.
+seo_title: "Syed Ibrahim Mustafa Shah Bukhari | HCI, Usable Privacy & Security, AI Alignment and Evaluation, and XR Research"
+seo_description: "Syed Ibrahim Mustafa Shah Bukhari is a Virginia Tech Ph.D. researcher studying HCI, usable security and privacy, AI alignment and evaluation, and extended reality."
+profile_schema: true
 
 profile:
   align: left

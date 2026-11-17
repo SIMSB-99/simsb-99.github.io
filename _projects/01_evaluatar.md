@@ -1,6 +1,9 @@
 ---
 layout: page
 title: EvaluatAR
+# Metadata only; update with project scope/status changes. See SEO.md.
+seo_title: "EvaluatAR: Efficient Standardized Cross-Device AR Privacy-Enhancing Technologies (PETs) Evaluation | Syed Ibrahim Mustafa Shah Bukhari"
+seo_description: "EvaluatAR enables reproducible, cross-device evaluation of AR bystander privacy-enhancing technologies through sensor recording and replay."
 img: assets/img/publication_preview/evaluatar.webp
 abstract: >
   Augmented-reality headsets continuously sense their surroundings, creating privacy risks for nearby
